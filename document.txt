@@ -1,0 +1,19 @@
+shareme_backend
+-------------------------
+create entire sanity configuration 
+    -schemas for comments images,
+    -posted by users
+(sanity.io)
+--------------------
+    install sanity
+--------------------
+npm install -g @sanity/cli
+npm install -g @sanity/cli && sanity init --project-plan boosted-free-2021-12-08 
+
+----------------------
+    sanity commands
+----------------------
+npx @sanity/cli start - to run Sanity Studio
+npx @sanity/cli docs - to open the documentation in a browser
+npx @sanity/cli manage - to open the project settings in a browser
+npx @sanity/cli help - to explore the CLI manual
