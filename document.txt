@@ -17,3 +17,55 @@ npx @sanity/cli start - to run Sanity Studio
 npx @sanity/cli docs - to open the documentation in a browser
 npx @sanity/cli manage - to open the project settings in a browser
 npx @sanity/cli help - to explore the CLI manual
+
+
+
+shareme Frontend
+------------------------------------------
+----------------------
+    install react
+----------------------
+cd /shareme_frontend
+npx create-react-app@next --script-version=@next --template=cra-template@next ./
+
+
+--------------------------------
+commands to run the application
+--------------------------------
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+
+
+--------------------------
+    install TailWindCSS
+--------------------------
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+-add config for tailwind in
+    tailwind.config.js
+
+-add tailwind directive to css
+
+//clear src directory
+-create index.js in src
+
+------------------------------------
+    install necessery packages
+------------------------------------
+npm install @sanity/client @sanity/image-url react-google-login react-icon react-loader-spinner react-masonry-css react-router-dom uuid
+
+npm install --legacy-peer-deps
